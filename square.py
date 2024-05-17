@@ -253,7 +253,7 @@ Artalk.init({{
 el:        '#Comments',
 pageKey:   '/square',
 pageTitle: '音乐分享广场',
-server:    'https://sunoapi.net',
+server:    'https://suno.diy',
 site:      'SunoAPI AI Music Generator',
 }})
 </script>
