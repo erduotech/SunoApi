@@ -190,7 +190,7 @@ def get_upload_url(filename, s3accessKeyId, s3SecretKeyId):
     url = client.generate_presigned_url(
         'put_object',
         Params={
-            'Bucket': 'sunoapi',
+            'Bucket': 'erduo',
             'Key': "images/upload/" + filename,
         },
         ExpiresIn=3600
