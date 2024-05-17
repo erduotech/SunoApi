@@ -176,8 +176,8 @@ def get_upload_url(filename, s3accessKeyId, s3SecretKeyId):
     # Config
     s3endpoint = 'https://s3.bitiful.net' # 请填入控制台 “Bucket 设置” 页面底部的 “Endpoint” 标签中的信息
     s3region = 'cn-east-1'
-    s3accessKeyId = s3accessKeyId # 请到控制台创建子账户，并为子账户创建相应 accessKey
-    s3SecretKeyId = s3SecretKeyId # ！！切记，创建子账户时，需要手动为其分配具体权限！！
+    s3accessKeyId = 'P7LUwEbBBF9etaG6t2JwgETu' # 请到控制台创建子账户，并为子账户创建相应 accessKey
+    s3SecretKeyId = 'fbsbvUSu8nEYB9AJeprFhnF6rk0mw8Q' # ！！切记，创建子账户时，需要手动为其分配具体权限！！
 
     # 连接 S3
     client = boto3.client(
