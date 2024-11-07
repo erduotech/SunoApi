@@ -97,7 +97,7 @@ st.session_state["page"] = 1
 st.session_state["click_image"] = False
 
 with st.sidebar:
-    selected = option_menu(None, [i18n("Music Song Create"), i18n("Music Share Square"), i18n("Music Project Readme"),i18n("Visit Official WebSite")],icons=['music-note', 'music-note-beamed', 'music-note-list'], menu_icon="cast", default_index=0)
+    selected = option_menu(None, [i18n("Music Song Create"), i18n("Music Share Square"),i18n("Visit Official WebSite")],icons=['music-note', 'music-note-beamed', 'music-note-list'], menu_icon="cast", default_index=0)
     
     if selected == i18n("Music Share Square"):
         st.switch_page("pages/square.py")
