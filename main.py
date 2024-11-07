@@ -112,7 +112,7 @@ with st.sidebar:
 
 st.sidebar.image('https://www.shabi.one/style/img/avatar.gif', caption=i18n("Join WeChat Group"))
 # st.sidebar.image('https://sunoapi.net/images/donate.jpg', caption=i18n("Buy me a Coffee"))
-st.sidebar.markdown(f'<div data-testid="stImageCaption" class="st-emotion-cache-1b0udgb e115fcil0" style="max-width: 100%;"> {i18n("Friendly Link")}</div>', unsafe_allow_html=True)
+# st.sidebar.markdown(f'<div data-testid="stImageCaption" class="st-emotion-cache-1b0udgb e115fcil0" style="max-width: 100%;"> {i18n("Friendly Link")}</div>', unsafe_allow_html=True)
 result = suno_sqlite.query_many("select link,label,status from link where status=0 order by id")
 # print(result)
 # print("\n")
