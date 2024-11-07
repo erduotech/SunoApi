@@ -100,7 +100,7 @@ with st.sidebar:
         st.switch_page("pages/square.py")
     elif selected == i18n("Visit Official WebSite"):
         st.page_link("https://suno.com", label=i18n("Visit Official WebSite1"), icon="🌐")
-        st.page_link("https://sunoapi.net", label=i18n("Visit Official WebSite2"), icon="🌐")
+        st.page_link("https://suno.diy", label=i18n("Visit Official WebSite2"), icon="🌐")
     # print(selected)
 
 st.sidebar.image('https://www.shabi.one/style/img/avatar.gif', caption=i18n("Join WeChat Group"))
